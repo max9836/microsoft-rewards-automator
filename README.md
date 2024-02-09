@@ -33,7 +33,7 @@ Run -Searches [Number of searches] -Path [Log file path] -Browser_Load_time [Loa
 * Path (Optional): Path to save the log file. If not provided, you'll be prompted for input.
 * Browser_Load_time (Mandatory): Time in seconds to wait for the browser to load (default: 3).
 * Random_length (Optional): Length of random search queries (range: 1-100). If not provided, a random value between 1-100 will be used.
-## Powershell
+## How to run it in Powershell
 Step 1: 
   Open PowerShell with administrator privileges.<br>
   1.  Right-click the Windows icon on the taskbar.<br>
