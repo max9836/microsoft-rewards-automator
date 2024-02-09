@@ -30,14 +30,34 @@ This PowerShell script automates Bing searches with random queries to potentiall
 Run -Searches [Number of searches] -Path [Log file path] -Browser_Load_time [Load time in seconds] -Random_length [Random query length]
 ```
 ### Searches
-> Mandatory: True
-> Input type: [int] Number
-> Description: Number of Bing searches to perform (range: 1-100).
-> [!]
-> <!--          I AM LOST HERE-->
-* Path (Optional): Path to save the log file. If not provided, you'll be prompted for input.
-* Browser_Load_time (Mandatory): Time in seconds to wait for the browser to load.
-* Random_length (Optional): Length of random search queries (range: 1-100). If not provided, a random value between 1-100 will be used.
+* Mandatory: True
+* Input type: [int] Number
+* Description: Amount of Bing searches to perform (range: 1-100).
+> [!TIP]
+> There are two levels in Microsoft Reward: Level 1 and Level 2, here are the major differences that relate to the points:
+> | Limitation | Level 1 | Level 2 |
+> | ---------- | ------- | ------- |
+> | Daily Bing search point limit (3 points per search) | 30 | 150 |
+>
+> So, the input of this should be either 10 (30/3) or 30 (150/3)
+### Path
+* Mandatory: False (optional)
+* Input type: [String] String (Text)
+* Description: Path to save the log file. If not provided, you'll be prompted for input.
+> [!TIP]
+> You do not have to write an input to this parameter even if you need a log file. There will be a input area after your request of a output log.
+### Browser_Load_time
+* Mandatory: True
+* Input type: [int] Number
+* Description: Time in seconds to wait for the browser to load (The time gap between the searches to run and the launch of Microsoft Edge).
+> [!TIP]
+> The time depends on the speed of your CPU and your WIFI-connection's stability.
+
+### Random_length 
+* Mandatory: False (Optional)
+* Description: Length of random search queries (range: 1-100). If not provided, a random value between 1-100 will be used.
+> [!TIP]
+> We suggest that the random length to be between 30 to 60. 
 ## How to run it in Powershell
 Step 1: 
   Open PowerShell with administrator privileges.<br>
@@ -46,18 +66,18 @@ Step 1:
 
 Step 2:
 Paste this code in the command line.<br>
-This code will bypass the execution policy from windows powershell.
+It will bypass the execution policy from windows powershell.
 
 ```
 set-executionpolicy -executionpolicy bybass
 ```
 Step 3:
-Then, run this command:
+Then, run this command.
 
 ```
 powershell -command "& { . <path>\Microsoft-Reward-cheater.ps1; Run}"
 ```
-#*You'll need to replace ```<path>``` with the actual path to your file.*<br>
+#*You'll need to replace ```<path>``` with the actual path to your file. Feel free to add parameters. To add parameters, you will need to type it after the cmdlet "Run".* <br>
 Step 4:
 Set the execution policy back to restricted, so your computer will not be hacked.
 ```
