@@ -29,9 +29,14 @@ This PowerShell script automates Bing searches with random queries to potentiall
 ```
 Run -Searches [Number of searches] -Path [Log file path] -Browser_Load_time [Load time in seconds] -Random_length [Random query length]
 ```
-* Searches (Mandatory): Number of Bing searches to perform (range: 1-100).
+### Searches
+> Mandatory: True
+> Input type: [int] Number
+> Description: Number of Bing searches to perform (range: 1-100).
+> [!]
+> <!--          I AM LOST HERE-->
 * Path (Optional): Path to save the log file. If not provided, you'll be prompted for input.
-* Browser_Load_time (Mandatory): Time in seconds to wait for the browser to load (default: 3).
+* Browser_Load_time (Mandatory): Time in seconds to wait for the browser to load.
 * Random_length (Optional): Length of random search queries (range: 1-100). If not provided, a random value between 1-100 will be used.
 ## How to run it in Powershell
 Step 1: 
