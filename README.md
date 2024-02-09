@@ -59,4 +59,10 @@ Set the execution policy back to restricted, so your computer will not be hacked
 set-executionpolicy -executionpolicy restricted
 ```
 
+## Usage example
+This is one of the example of using this script.
+1. Run 30 searches after 3 seconds load time for edge browser.
+```
+powershell -command "& { . <path>\Microsoft-Reward-cheater.ps1; Run -Searches 30 -Browser_Load_time 3}"
+```
 <!--```--->
