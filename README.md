@@ -59,35 +59,49 @@ Run -Searches [Number of searches] -Path [Log file path] -Browser_Load_time [Loa
 > [!TIP]
 > We suggest that the random length to be between 30 to 60. 
 ## How to run it in Powershell
-Step 1: 
-  Open PowerShell with administrator privileges.<br>
+### Step 1 
+  **Open PowerShell with administrator privileges**<br>
   1.  Right-click the Windows icon on the taskbar.<br>
   2.  Click "Windows Terminal (Admin)."
+> [!NOTE]
+> If execution policy is already bypassed in your computer, you may skip this step.
 
-Step 2:
-Paste this code in the command line.<br>
-It will bypass the execution policy from windows powershell.
-
+### Step 2
+  **Bypass execution policy**<br>
 ```
 set-executionpolicy -executionpolicy bybass
 ```
-Step 3:
-Then, run this command.
+> [!NOTE]
+> If execution policy is already bypassed in your computer, you may skip this step.
 
+> [!CAUTION]
+> In order to bypass execution policy, you will need to paste this code in Powershell with administrator privileges.
+### Step 3
+**Run the main function**<br>
 ```
 powershell -command "& { . <path>\Microsoft-Reward-cheater.ps1; Run}"
 ```
-#*You'll need to replace ```<path>``` with the actual path to your file. Feel free to add parameters. To add parameters, you will need to type it after the cmdlet "Run".* <br>
-Step 4:
-Set the execution policy back to restricted, so your computer will not be hacked.
+> [!IMPORTANT]
+> You'll need to replace ```<path>``` with the actual path to your file. Feel free to add parameters.
+
+> [!NOTE]
+> To add parameters, you will need to type it after the command name "Run" like this:
+> ```
+> Run -Searches [Number of searches] -Path [Log file path] -Browser_Load_time [Load time in seconds] -Random_length [Random query length]
+> ```
+### Step 4
+**Set the execution policy back to restricted**
 ```
 set-executionpolicy -executionpolicy restricted
 ```
+> [!CAUTION]
+> To set the execution policy, you will need administrator privileges.
 
+> [!NOTE]
+> You can choose not to do this step. However we reccommend you to do it because hackers may perform specific functions that causes harm to your device easily without permission.
 ## Usage example
-This is one of the example of using this script.
-1. Run 30 searches after 3 seconds load time for edge browser.
+This is one of the example of using this script
+1. Run 30 searches after 3 seconds of load time for edge browser.
 ```
 powershell -command "& { . <path>\Microsoft-Reward-cheater.ps1; Run -Searches 30 -Browser_Load_time 3}"
 ```
-<!--```--->
