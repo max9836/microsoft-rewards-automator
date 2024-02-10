@@ -55,6 +55,7 @@ Run -Searches [Number of searches] -Path [Log file path] -Browser_Load_time [Loa
 
 ### Random_length 
 * Mandatory: False (Optional)
+* Input type: [int] Number
 * Description: Length of random search queries (range: 1-100). If not provided, a random value between 1-100 will be used.
 > [!TIP]
 > We suggest that the random length to be between 30 to 60. 
@@ -64,7 +65,7 @@ Run -Searches [Number of searches] -Path [Log file path] -Browser_Load_time [Loa
   1.  Right-click the Windows icon on the taskbar.<br>
   2.  Click "Windows Terminal (Admin)."
 > [!NOTE]
-> If execution policy is already bypassed in your computer, you may skip this step.
+> If execution policy has already been bypassed in your computer, you may skip this step.
 
 ### Step 2
   **Bypass execution policy**<br>
@@ -72,7 +73,7 @@ Run -Searches [Number of searches] -Path [Log file path] -Browser_Load_time [Loa
 set-executionpolicy -executionpolicy bybass
 ```
 > [!NOTE]
-> If execution policy is already bypassed in your computer, you may skip this step.
+> If execution policy has already been bypassed in your computer, you may skip this step.
 
 > [!CAUTION]
 > In order to bypass execution policy, you will need to paste this code in Powershell with administrator privileges.
@@ -82,13 +83,17 @@ set-executionpolicy -executionpolicy bybass
 powershell -command "& { . <path>\Microsoft-Reward-cheater.ps1; Run}"
 ```
 > [!IMPORTANT]
-> You'll need to replace ```<path>``` with the actual path to your file. Feel free to add parameters.
+> You'll need to replace ```<path>``` with the actual path to your file.
 
 > [!NOTE]
 > To add parameters, you will need to type it after the command name "Run" like this:
 > ```
 > Run -Searches [Number of searches] -Path [Log file path] -Browser_Load_time [Load time in seconds] -Random_length [Random query length]
 > ```
+
+> [!NOTE]
+> It is important to know what will be happening in this step. For more, please look at the section of [analyze the program](#Analyze-the-program).
+
 ### Step 4
 **Set the execution policy back to restricted**
 ```
@@ -105,3 +110,11 @@ This is one of the example of using this script
 ```
 powershell -command "& { . <path>\Microsoft-Reward-cheater.ps1; Run -Searches 30 -Browser_Load_time 3}"
 ```
+
+-----------------------------------------
+You do not have to look at the sections below unless you have great interest of this program
+
+# Analyze the program
+These things are happening while the program runs:
+1. Microsoft Edge is launched and negivated to "https://www.Bing.com" by this command `Start-Process msedge -ArgumentList "https://www.bing.com"`
+2. Each search query is <!---->
