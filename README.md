@@ -1,5 +1,5 @@
 # Microsoft reward cheater
-This powerShell script (Microsoft-reward-cheater.ps1) automates Bing searches with random queries to potentially earn Microsoft Rewards points. It features:
+This PowerShell script (Microsoft-reward-cheater.ps1) automates Bing searches with random queries to potentially earn Microsoft Rewards points. It features:
 
 * Random query generation for search variety.
 * Keystroke simulation to perform searches automatically.
@@ -8,7 +8,7 @@ This powerShell script (Microsoft-reward-cheater.ps1) automates Bing searches wi
 
 > [!WARNING]
 > **DO NOT USE OTHER APPLICATION WHILE THIS SCRIPT IS RUNNING.** <br>
-> This script uses keyboard typing to avoid getting noticed by the browser, using other application while this script will warning will cause the text typed in the wrong place, and finally cause a big mess.
+> This script uses keyboard typing to avoid getting noticed by the browser, using other applications while this script will warn will cause the text typed in the wrong place, and finally cause a big mess.
 
 # Introduction:
 This PowerShell script automates Bing searches with random queries to potentially earn Microsoft Rewards points. It includes optional logging to track progress.
@@ -45,27 +45,27 @@ Run -Searches [Number of searches] -Path [Log file path] -Browser_Load_time [Loa
 * Input type: [String] String (Text)
 * Description: Path to save the log file. If not provided, you'll be prompted for input.
 > [!TIP]
-> You do not have to write an input to this parameter even if you need a log file. There will be a input area after your request of a output log.
+> You do not have to write an input to this parameter even if you need a log file. There will be an input area after your request for an output log.
 ### Browser_Load_time
 * Mandatory: True
 * Input type: [int] Number
 * Description: Time in seconds to wait for the browser to load (The time gap between the searches to run and the launch of Microsoft Edge).
 > [!TIP]
-> The time depends on the speed of your CPU and your WIFI-connection's stability.
+> The time depends on the speed of your CPU and your WIFI connection's stability.
 
 ### Random_length 
 * Mandatory: False (Optional)
 * Input type: [int] Number
 * Description: Length of random search queries (range: 1-100). If not provided, a random value between 1-100 will be used.
 > [!TIP]
-> We suggest that the random length to be between 30 to 60. 
+> We suggest that the random length is between 30 to 60. 
 ## How to run it in Powershell
 ### Step 1 
   **Open PowerShell with administrator privileges**<br>
   1.  Right-click the Windows icon on the taskbar.<br>
   2.  Click "Windows Terminal (Admin)."
 > [!NOTE]
-> If execution policy has already been bypassed in your computer, you may skip this step.
+> If the execution policy has already been bypassed in your computer, you may skip this step.
 
 ### Step 2
   **Bypass execution policy**<br>
@@ -103,20 +103,21 @@ set-executionpolicy -executionpolicy restricted
 > To set the execution policy, you will need administrator privileges.
 
 > [!NOTE]
-> You can choose not to do this step. However we reccommend you to do it because hackers may perform specific functions that causes harm to your device easily without permission.
+> You can choose not to do this step. However, we recommend you do it because hackers may perform specific functions that cause harm to your device easily without permission.
 ## Usage example
-This is one of the example of using this script
-1. Run 30 searches after 3 seconds of load time for edge browser.
+This is one of the examples of using this script
+
+Run 30 searches after 3 seconds of load time for the Edge browser.
 ```
 powershell -command "& { . <path>\Microsoft-Reward-cheater.ps1; Run -Searches 30 -Browser_Load_time 3}"
 ```
 
 -----------------------------------------
-You do not have to look at the sections below unless you have great interest of this program
+You do not have to look at the sections below unless you have a great interest in this program
 
 # Analyze the program
 These things are happening while the program runs:
-#### 1. Microsoft Edge is launched and negivated to "https://www.Bing.com" by this command `Start-Process msedge -ArgumentList "https://www.bing.com"`. After that, a few seconds(depends on your input)
+#### 1. Microsoft Edge is launched and navigated to "https://www.Bing.com" by this command `Start-Process msedge -ArgumentList "https://www.bing.com"`. After that, a few seconds(depending on your input)
 ```
     Start-Process msedge -ArgumentList "https://www.bing.com"
     Start-Sleep -Seconds $Browser_Load_time
@@ -171,7 +172,7 @@ These things are happening while the program runs:
     }
 ```
 > [!NOTE]
-> If you want a output log file, type `y` or `Y`; if you do not want a output file, type `n` or `N`.
+> If you want an output log file, type `y` or `Y`; if you do not want a output file, type `n` or `N`.
 #### 6. The content of the output log file will be outputted.
 ```
     Write-Output $FILE_DOC
