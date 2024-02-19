@@ -29,6 +29,13 @@ This PowerShell script automates Bing searches with random queries to potentiall
 ```
 Run -Searches [Number of searches] -Path [Log file path] -Browser_Load_time [Load time in seconds] -Random_length [Random query length]
 ```
+> [!IMPORTANT]
+> If you need to run the script, use the syntax below:
+> ```
+> powershell -command "& { . '<path>\Microsoft-Reward-cheater.ps1'; Run}"
+> ```
+> [Instructions](#Instructions)
+
 ### Searches
 * Mandatory: True
 * Input type: [int] Number
@@ -59,7 +66,7 @@ Run -Searches [Number of searches] -Path [Log file path] -Browser_Load_time [Loa
 * Description: Length of random search queries (range: 1-100). If not provided, a random value between 1-100 will be used.
 > [!TIP]
 > We suggest that the random length is between 30 to 60. 
-## How to run it in Powershell
+# Instructions
 ### Step 1 
   **Open PowerShell with administrator privileges**<br>
   1.  Right-click the Windows icon on the taskbar.<br>
@@ -80,7 +87,7 @@ set-executionpolicy -executionpolicy bybass
 ### Step 3
 **Run the main function**<br>
 ```
-powershell -command "& { . <path>\Microsoft-Reward-cheater.ps1; Run}"
+powershell -command "& { . '<path>\Microsoft-Reward-cheater.ps1'; Run}"
 ```
 > [!IMPORTANT]
 > You'll need to replace ```<path>``` with the actual path to your file.
