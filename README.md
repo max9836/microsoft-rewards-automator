@@ -8,7 +8,7 @@ This PowerShell script (Microsoft-reward-cheater.ps1) automates Bing searches wi
 
 > [!WARNING]
 > **DO NOT USE OTHER APPLICATION WHILE THIS SCRIPT IS RUNNING.** <br>
-> This script uses keyboard typing to avoid getting noticed by the browser, using other applications while this script will warn will cause the text typed in the wrong place, and finally cause a big mess.
+> This script uses keyboard typing to avoid getting noticed by the browser, using other applications while this script will cause the text typed in the wrong place, and finally cause a big mess.
 
 # Introduction:
 This PowerShell script automates Bing searches with random queries to potentially earn Microsoft Rewards points. It includes optional logging to track progress.
