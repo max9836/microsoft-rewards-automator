@@ -23,7 +23,7 @@ This PowerShell script automates Bing searches with random queries to potentiall
 1. Edge Browser: The script launches Microsoft Edge to perform searches that can earn Microsoft Reward points.
 2. Windows and Mac operation system: This PowerShell script can only be executed in a Windows PowerShell terminal or on a Mac using a terminal emulator.
 
-# Useage:
+# Usage:
 
 ## Syntax
 ```
@@ -77,7 +77,7 @@ Run -Searches [Number of searches] -Path [Log file path] -Browser_Load_time [Loa
 ### Step 2
   **Bypass execution policy**<br>
 ```
-set-executionpolicy -executionpolicy bybass
+set-executionpolicy -executionpolicy bypass
 ```
 > [!NOTE]
 > If execution policy has already been bypassed in your computer, you may skip this step.
