@@ -46,7 +46,7 @@ Run -Searches [Number of searches] -Path [Log file path] -Browser_Load_time [Loa
 > | ---------- | ------- | ------- |
 > | Daily Bing search point limit (3 points per search) | 30 | 150 |
 >
-> So, the input of this should be either 10 (30/3) or 30 (150/3)
+> So, the input of this should be either 10 (30/3) or 30 (90/3)
 ### Path
 * Mandatory: False (optional)
 * Input type: [String] String (Text)
