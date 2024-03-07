@@ -24,7 +24,7 @@ function Run {
         }
         return $randomString
     }
-    $FILE_DOC = "MICROSOFT_REWARD_CHEATER_APP_OPERATION`n"
+    $FILE_DOC = "MICROSOFT_REWARD_AUTOMATOR_APP_OPERATION`n"
     $FILE_DOC += Get-Date -Format "yyyy-MM-dd HH:mm:ss"
     $FILE_DOC += "`n"
     Start-Process msedge -ArgumentList "https://www.bing.com"
@@ -40,12 +40,12 @@ function Run {
         $Random_length = Get-Random -Minimum 0 -Maximum 100
     }
     $randomQueries = 1..$Searches | ForEach-Object {
-        "MICROSOFT_REWARD_CHEATER_APP_OPERATION?SEARCH=$(Get-RandomString -length $Random_length)"
+        "MICROSOFT_REWARD_AUTOMATOR_APP_OPERATION?SEARCH=$(Get-RandomString -length $Random_length)"
     }
     $Count = 0;
     foreach ($query in $randomQueries) {
         $Count += 1;
-        $FILE_DOC += "[$Count]:MICROSOFT REWARD CHEATER APP OPERATION::$query`n"
+        $FILE_DOC += "[$Count]:MICROSOFT REWARD AUTOMATOR APP OPERATION::$query`n"
         [System.Windows.Forms.SendKeys]::SendWait("/")
         [System.Windows.Forms.SendKeys]::SendWait($query)
         [System.Windows.Forms.SendKeys]::SendWait("{ENTER}")
@@ -57,7 +57,7 @@ function Run {
         if ($Path -eq "") {
             $Path = Read-Host "Please input file path"
         }
-        $File_name = "Microsoft reward cheater output ("
+        $File_name = "Microsoft reward automator output ("
         $File_name += Get-Date -Format "yyyy-MM-dd"
         $File_name += ").txt"
         New-Item -ItemType "File" -Name $File_name -Value $FILE_DOC -Path $Path -Force
