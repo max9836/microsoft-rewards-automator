@@ -6,6 +6,9 @@ This PowerShell script (Microsoft-reward-automator.ps1) automates Bing searches 
 * Optional logging of search activity.
 * User input for number of searches, browser loading time, and optional log file path.
 
+> [!CAUTION]
+> If you have a malware detector or if you don't trust this software `Microsoft rewards automator.exe.exe`, do not use it. Use `Microsoft rewards automator.ps1` instead
+
 > [!WARNING]
 > **DO NOT USE OTHER APPLICATION WHILE THIS SCRIPT IS RUNNING.** <br>
 > This script uses keyboard typing to avoid getting noticed by the browser, using other applications while this script will cause the text typed in the wrong place, and finally cause a big mess.
