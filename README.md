@@ -1,17 +1,16 @@
 # Microsoft rewards automator
-This PowerShell script (Microsoft-reward-automator.ps1) automates Bing searches with random queries to potentially earn Microsoft Rewards points. It features:
+This app automates Bing searches with random queries to potentially earn Microsoft Rewards points. It features:
 
 * Random query generation for search variety.
 * Keystroke simulation to perform searches automatically.
-* Optional logging of search activity.
-* User input for number of searches, browser loading time, and optional log file path.
+* User input for number of searches, browser loading time
 
 > [!WARNING]
 > **DO NOT USE OTHER APPLICATION WHILE THIS SCRIPT IS RUNNING.** <br>
 > This script uses keyboard typing to avoid getting noticed by the browser, using other applications while this script will cause the text typed in the wrong place, and finally cause a big mess.
 
 # Introduction:
-This PowerShell script automates Bing searches with random queries to potentially earn Microsoft Rewards points. It includes optional logging to track progress.
+This app automates Bing searches with random queries to potentially earn Microsoft Rewards points. It includes optional logging to track progress.
 
 ## Key Features:
 * Generates random search queries for diversity.
