@@ -1,3 +1,5 @@
+<IMG style="    margin-left: auto;margin-right: auto;" SRC="https://github.com/max9836/microsoft-rewards-automator/blob/326d327a16e31beedcccefd039100c18cebe2468/Microsoft%20Rewards%20Automator%20v.5.0.0.gif">
+
 # Microsoft rewards automator
 This app automates Bing searches with random queries to potentially earn Microsoft Rewards points. It features:
 
