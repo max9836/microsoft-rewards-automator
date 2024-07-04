@@ -29,3 +29,6 @@ This app automates Bing searches with random queries to potentially earn Microso
 2. Follow the steps in the setup app
 3. After the installation finished, you may run the program, `Microsoft Rewards Automator` <b>directly</b> from your desktop.
 4. Run `Microsoft Rewards Automator`
+  <IMG style="margin-left: auto;margin-right: auto;" SRC="https://github.com/max9836/microsoft-rewards-automator/blob/main/Microsoft%20Rewards%20Automator.png?raw=true">
+5. The app should look like this after you run it
+  <IMG style="margin-left: auto;margin-right: auto;" SRC="https://github.com/max9836/microsoft-rewards-automator/blob/main/Microsoft%20Rewards%20Automator%201.png?raw=true">
