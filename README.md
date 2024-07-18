@@ -1,4 +1,4 @@
-<IMG style="margin-left: auto;margin-right: auto;" SRC="/No need to download - source file/Microsoft Rewards Automator v.6.0.0.gif">
+<IMG style="margin-left: auto;margin-right: auto;" SRC="/No need to download - source file/Latest update gif.gif">
 
 # Microsoft rewards automator
 This app automates Bing searches with random queries to potentially earn Microsoft Rewards points. It features:
