@@ -1,7 +1,11 @@
 <IMG style="margin-left: auto;margin-right: auto;" SRC="/No need to download - source file/Latest update gif.gif">
 
-# Microsoft Rewards Automator
+<h1 style="text-align:ceter;">#This is the user-friendly and easy-to-use app you are looking for</h1>
+<br>
 
+# Microsoft Rewards Automator
+:accessibility: 🥇 🎖️
+<br>
 This app automates Bing searches with random queries to potentially earn Microsoft Rewards points. It features:
 
 * 🆕 **NEW!!!** Random query database newly added to reduce account being banned:
