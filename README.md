@@ -68,7 +68,7 @@ If you encounter issues with the app, please consider the following solutions:
 
 ## License
 
-This project is licensed under the [CC BY-NC-SA 4.0 License](LICENSE). For more details, please refer to the LICENSE file.
+This project is licensed under the [MIT license](https://github.com/max9836/microsoft-rewards-automator?tab=MIT-1-ov-file). For more details, please refer to the LICENSE file.
 
 ## Contributions
 
