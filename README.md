@@ -46,12 +46,12 @@ Using the Microsoft Rewards Automator is simple! Just follow these steps:
 
     - Dwell Time Selections
       
-       | Selections                         | Time Range                                          |
-       |------------------------------------|-----------------------------------------------------|
-       | *Fast*                             | 1 second dwell time                                 |
-       | *Slow*                             | 4 seconds dwell time                                |
-       | *Fast Random*                      | 1-3 seconds random dwell time                       |
-       | *Slow Random*                      | 3-5 seconds random dwell time                       |
+       | Selections        | Time Range                  |  Benefits                                       |
+       |-------------------|-----------------------------|-------------------------------------------------|
+       | Fast              | 1 second dwell time         | Time-saving                                     |
+       | Slow              | 4 seconds dwell time        | For slow internet                               |
+       | Fast Random       | 1-3 seconds random dwell time| Lower detection probability + Time-saving      |
+       | Slow Random       | 3-5 seconds random dwell time| Lowest detection probability for slow internet |
 
    
 4. **Start the Automation**: Click on the **Start** button to initiate the automation process.
