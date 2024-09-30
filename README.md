@@ -2,8 +2,14 @@
 
 Are you looking for a simple and efficient way to automate your Bing searches and maximize your Microsoft Rewards points? Look no further! The **Microsoft Rewards Automator** is designed to streamline the process and make earning rewards a breeze.
 
+> [!WARNING]
+> **DO NOT USE OTHER APPLICATIONS WHILE THIS SCRIPT IS RUNNING.**  
+> This script uses keyboard input to avoid browser detection. Running other applications simultaneously may cause the text to be typed in the wrong place, resulting in a mess.
+
+
 ## Features
 
+- **Keystroke simulation**: Streamlines repetitive tasks by mimicking human input, allowing users to efficiently earn points without manual interaction.
 - **Automated Searches**: Effortlessly automates Bing searches in Microsoft Edge to collect Microsoft Rewards points.
 - **Seamless Integration**: Works flawlessly with your Edge browser, making setup a breeze.
 - **User-Friendly Interface**: Simple setup and installation process for hassle-free use.
