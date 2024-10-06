@@ -6,12 +6,32 @@ Are you looking for a simple and efficient way to automate your Bing searches an
 > **DO NOT USE OTHER APPLICATIONS WHILE THIS SCRIPT IS RUNNING.**  
 > This script uses keyboard input to avoid browser detection. Running other applications simultaneously may cause the text to be typed in the wrong place, resulting in a mess.
 
+> [!CAUTION]
+> **Choosing Dwell Time**
+> 
+> I recommend using "Slow Random" because it is highly unlikely to trigger Microsoft Rewards detection. Based on client feedback, selecting any option other than Slow Random prevents the addition of Microsoft Rewards points.
+## Proof
+
+https://github.com/user-attachments/assets/2a4442db-369e-462a-a893-b8b437d79796
+
+
+
 ## Features
 
 - **Keystroke simulation**: Streamlines repetitive tasks by mimicking human input, allowing users to efficiently earn points without manual interaction.
 - **Automated Searches**: Effortlessly automates Bing searches in Microsoft Edge to collect Microsoft Rewards points.
 - **Seamless Integration**: Works flawlessly with your Edge browser, making setup a breeze.
 - **User-Friendly Interface**: Simple setup and installation process for hassle-free use.
+
+### Aim
+<img src="https://github.com/max9836/microsoft-rewards-automator/blob/main/Microsoft%20Rewards%20Automator%20%23Aim.png?raw=true" height="350">
+
+* **Simplicity:** The product demonstrates a high level of simplicity, making it easy to use and understand.
+* **Reliability and Security:** The product is reliable and secure, ensuring data protection and minimal downtime.
+* **Productive and Efficiency:** The product is designed to enhance productivity and efficiency, streamlining workflows and saving time.
+* **Diversity:** The product offers a diverse range of features and functionalities to cater to various user needs.
+* **User Experience and Interface:** The product provides an intuitive and user-friendly interface, making it enjoyable to use.
+* **Functionality and Features:** The product offers robust functionality and features, fulfilling its intended purpose effectively.
 
 ## Prerequisites
 
