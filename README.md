@@ -32,7 +32,7 @@ Follow these steps to install the Microsoft Rewards Automator:
 > [!NOTE]
 > No need to download Default.Search.Query.Collections.zip
 > 
-> Default Search Query Collection is contained in the application folder, which in most case is `C:\Program Files (x86)\Microsoft Rewards Automator\Default.Search.Query.Collection.zip`
+> Default Search Query Collection is contained in the application folder, which in most case is `C:\Program Files (x86)\Microsoft Rewards Automator\`
 ### Method 2: *(RECOMMENDED)* Download Directly (for individuals who have *NOT* installed the .NET 8.0 framework, which applies to most people)
 Follow these steps to download and install Microsoft Rewards Automator with .NET 8.0 framework self-contained:
 
