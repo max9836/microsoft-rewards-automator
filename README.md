@@ -33,6 +33,16 @@ Follow these steps to install the Microsoft Rewards Automator:
 > No need to download Default.Search.Query.Collections.zip
 > 
 > Default Search Query Collection is contained in the application folder, which in most case is `C:\Program Files (x86)\Microsoft Rewards Automator\`
+
+> [!WARNING]
+> Please DO NOT DELETE the .zip file if you are using method 1. You will need the installer to uninstall the application. If you wish to delete the installer.zip file, use method 2 instead. For more detail visit Method 1: Uninstall
+### Method 1: Uninstall
+Follow these steps to uninstall the Microsoft Rewards Automator
+1. **Launch the installer**: Open `Setup.exe`
+2. **Uninstall Microsoft Rewards Automator**: Select `Uninstall Microsoft Rewards Automator`
+3. **Run the uninstallation**: Uninstall the app.
+4. **Give feedback**: If there are issues in this app, please open the an issue in the issue page.
+
 ### Method 2: *(RECOMMENDED)* Download Directly (for individuals who have *NOT* installed the .NET 8.0 framework, which applies to most people)
 Follow these steps to download and install Microsoft Rewards Automator with .NET 8.0 framework self-contained:
 
