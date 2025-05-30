@@ -1,10 +1,12 @@
 > [!IMPORTANT]
 > This repo will be archived soon because my friend lost his source code and he said this will no longer be maintained.
+>
 > Thank you for the support the community has given throughout the entire time.
 >
 > He said this project has failed as soon as he decided to publish this without publicly attaching the source code.
 > 
 > So, given the circumstances, this repository will no longer receive updates or maintenance.
+>
 > Thank you again for all the support from the community throughout its lifetime.
 > 
 
