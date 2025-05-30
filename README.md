@@ -1,3 +1,13 @@
+> [!IMPORTANT]
+> This repo will be archived soon because my friend lost his source code and he said this will no longer be maintained.
+> Thank you for the support the community has given throughout the entire time.
+>
+> He said this project has failed as soon as he decided to publish this without publicly attaching the source code.
+> 
+> So, given the circumstances, this repository will no longer receive updates or maintenance.
+> Thank you again for all the support from the community throughout its lifetime.
+> 
+
 # Microsoft Rewards Automator
 
 Are you looking for a simple and efficient way to automate your Bing searches and maximize your Microsoft Rewards points? Look no further! The **Microsoft Rewards Automator** is designed to streamline the process and make earning rewards a breeze.
@@ -118,11 +128,3 @@ If you encounter issues with the app, please consider the following solutions:
 ## License
 
 This project is licensed under the [MIT license](https://github.com/max9836/microsoft-rewards-automator?tab=MIT-1-ov-file). For more details, please refer to the LICENSE file.
-
-## Contributions
-
-I welcome contributions! If you have suggestions, encounter issues, or would like to help improve the app, please submit issues and pull requests.
-
-## Contact
-
-For any support or inquiries, feel free to contact me via [email](mailto:max9836github@gmail.com). I'm here to help!
